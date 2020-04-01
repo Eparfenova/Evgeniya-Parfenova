@@ -1,0 +1,61 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__statistic/intro__statistic.css);
+@import url(./__statistic-row/intro__statistic-row.css);
+@import url(./__statistic-span/intro__statistic-span.css);
+
+@font-face {
+    font-family: 'Inter'; 
+    src: url(../../font/Inter-3.11/Inter/Inter-Light-BETA.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter'; 
+    src: url(../../font/Inter-3.11/Inter/Inter-ExtraBold.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+.intro {
+    display: flex;
+    flex-flow: column;
+    max-width: 983px;
+    font-family: Inter, Arial, sans-serif;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 102px;
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 64px; 
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .intro {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 97px; 
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .intro {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .intro {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+

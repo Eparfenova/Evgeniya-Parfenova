@@ -1,0 +1,61 @@
+@import url(./__container/video__container.css);
+@import url(./__duration/video__duration.css);
+@import url(./__icon/video__icon.css);
+@import url(./__item/video__item.css);
+@import url(./__subtitle/video__subtitle.css);
+@import url(./__title/video__title.css);
+@import url(./__content-title/video__content-title.css);
+@import url(./__content-subtitle/video__content-subtitle.css);
+@import url(./__text/video__text.css);
+@import url(./__img/video__img.css);
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-ExtraBold.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+.video {
+    
+    max-width: 1184px;
+    margin: auto;
+    font-family: Inter, Arial, sans-serif;
+   
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .video {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .video {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .video {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .video {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}

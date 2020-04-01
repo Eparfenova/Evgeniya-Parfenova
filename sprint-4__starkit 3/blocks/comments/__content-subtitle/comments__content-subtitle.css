@@ -1,0 +1,28 @@
+.comments__content-subtitle {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+    .comments__content-subtitle {
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .comments__content-subtitle {
+        margin-bottom: 56px;
+    }
+}

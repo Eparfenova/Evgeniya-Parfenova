@@ -1,0 +1,20 @@
+.footer__author {
+    max-width: 282px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+
+
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+    .footer__author {
+        max-width: 190px;
+    }
+}
+

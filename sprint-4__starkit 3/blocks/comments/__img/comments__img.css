@@ -1,0 +1,13 @@
+.comments__img {
+    width: 97px;
+    background: #C4C4C4;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__img {
+        grid-area: img;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+}

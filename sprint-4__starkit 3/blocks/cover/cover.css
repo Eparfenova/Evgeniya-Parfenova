@@ -1,0 +1,57 @@
+@import url(./__img/cover__img.css);
+@import url(./__subtitle/cover__sutitle.css);
+@import url(./__title/cover__title.css);
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-ExtraBold.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 102px; 
+    font-family: Inter, Arial, sans-serif;
+    background-size: cover;
+    background-image: url(../../images/cover.jpg);
+    transition: 0s ease;
+}
+
+.cover:hover {
+    opacity: 0.7;
+}
+
+/*.cover::before {
+    position: absolute;
+    content:"";
+    max-width: 1184px;
+    height: 100%;
+    opacity: 0;
+    background: #2A2C2F;
+    background-size: cover ;
+}
+
+.cover:hover::before {
+    opacity: 0.3;}*/
+
+
+
+@media screen and (max-width: 425px) {
+    .cover {
+        margin-top: 48px;
+    }
+}
+
+

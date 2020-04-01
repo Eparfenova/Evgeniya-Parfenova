@@ -1,0 +1,55 @@
+@import url(./__author/footer__author.css);
+@import url(./__link/foter__link.css);
+@import url(./__url/footer__url.css);
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-Light-BETA.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.footer {
+    display: flex;
+    max-width: 1184px;
+    margin: auto;
+    margin-top: 160px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+    font-family: Inter, Arial, sans-serif;
+}
+
+@media screen and (max-width: 709px) {
+    .footer {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 64px;
+        display: grid;
+        grid-gap: 2vw;
+    }
+}
+
+
+
+@media screen and (min-width: 710px) and (max-width: 768px) {
+    .footer {
+        padding-left: 24px;
+        padding-right: 24px;   
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .footer {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}

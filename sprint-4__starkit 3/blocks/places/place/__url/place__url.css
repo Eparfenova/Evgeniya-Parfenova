@@ -1,0 +1,38 @@
+.place__url {
+    max-width: 352px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+
+.place__url:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 425px) {
+    .place__url {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .place__paragraph {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place__paragraph {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}

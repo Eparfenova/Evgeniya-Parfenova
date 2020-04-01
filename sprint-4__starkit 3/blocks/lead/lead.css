@@ -1,0 +1,24 @@
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__title/lead__title.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-Light-BETA.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-ExtraBold.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lead {
+    max-width: 985px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, Arial, sans-serif;
+}

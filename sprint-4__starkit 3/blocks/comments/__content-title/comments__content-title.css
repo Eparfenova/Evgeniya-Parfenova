@@ -1,0 +1,32 @@
+.comments__content-title {
+    max-width: 800px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+    .comments__content-title {
+        margin-bottom: 16px;
+        max-width: 343px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .comments__content-title {
+        margin-bottom: 24px;
+        max-width: 720px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}

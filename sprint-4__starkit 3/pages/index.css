@@ -1,0 +1,48 @@
+@import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+
+/*{
+    border: 1px solid red;
+}*/
+
+.page {
+    background: #2A2C2F; 
+    margin: auto;    
+}
+
+/*@media screen and (max-width: 425px) {
+    .page {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .page {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .page {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .page {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}*/
+
+

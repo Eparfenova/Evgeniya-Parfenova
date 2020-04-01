@@ -1,0 +1,44 @@
+.place__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .place__link {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 510px) {
+    .place__link {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 511px) and (max-width: 768px) {
+    .place__link {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place__link {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .place__link {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}

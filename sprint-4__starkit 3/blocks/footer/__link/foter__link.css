@@ -1,0 +1,11 @@
+.footer__link {
+    display: flex;
+}
+
+@media screen and (max-width: 709px) {
+    .footer__link {
+        display: grid;
+        margin-bottom: 16px;    
+    }
+}
+

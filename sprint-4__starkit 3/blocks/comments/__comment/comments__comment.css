@@ -1,0 +1,16 @@
+.comments__comment {
+    max-width: 382px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__comment {
+        display: grid;
+        grid-template-areas:
+        "img"
+        "author"
+        "quote";
+        text-align: center;
+    }
+}

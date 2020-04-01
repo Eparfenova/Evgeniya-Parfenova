@@ -1,0 +1,15 @@
+.video__text {
+    position: absolute;
+    max-width: 322px;
+    bottom: 30px;
+    left: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .video__text {
+        bottom: 24px;  
+    }
+}

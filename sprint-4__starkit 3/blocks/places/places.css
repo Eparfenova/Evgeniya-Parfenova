@@ -1,0 +1,28 @@
+@import url(./place/place.css);
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../../font/Inter-3.11/Inter/Inter-ExtraBold.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    margin-top: 92px;
+    font-family: Inter, Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .places {
+        padding-bottom: 16px;
+    }
+}

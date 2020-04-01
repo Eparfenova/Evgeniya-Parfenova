@@ -1,0 +1,7 @@
+.video__icon_type_play {
+    width: 41px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    z-index: 1;
+}

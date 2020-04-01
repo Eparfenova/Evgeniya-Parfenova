@@ -1,0 +1,19 @@
+@import url(./_active/header__language_lang_active.css);
+
+
+.header__language {
+    width: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header__language:hover {
+    opacity: 0.7;
+}
